@@ -23,11 +23,16 @@ nav {
 
 }
 
-h2 {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
-.dfn {
+.wrapper > .dfn {
   background-color: #b58900;
+
+}
+
+.dfn p + strong {
+  color: #fff;
 
 }
